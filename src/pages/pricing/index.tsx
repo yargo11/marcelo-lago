@@ -30,7 +30,7 @@ export default function Pricing() {
                 <SimpleGrid minChildWidth='300px' spacing='40px' my='2rem'>
                     <Plans
                         planTitle='SPEECH'
-                        planDescription="Cut individual mispells and speech erros, fillers like 'Uuhs', unintentionally repeated words and longe silences"
+                        planDescription="Cut individual mispells and speech erros, fillers like &apos;Uuhs&apos;, unintentionally repeated words and longe silences"
                     />
                     <Plans
                         planTitle='EDITING & DISTRIBUTION'
