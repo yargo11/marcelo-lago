@@ -11,10 +11,10 @@ export default function About() {
                 <Flex direction={['column', 'row']} maxW='980px' w='100%' m='auto' mt='2rem'>
                     <Box maxW='576px' mx='1rem'>
                         <Text textAlign='justify'>
-                            Like every kid in 1998, I loved playing video games and messing with computers, so when I grew up, I decided to study Computer Science so I could create cool games, or at least that's what I thought made sense.
+                            Like every kid in 1998, I loved playing video games and messing with computers, so when I grew up, I decided to study Computer Science so I could create cool games, or at least that&apos;s what I thought made sense.
                         </Text>
                         <Text mt='1.5rem' textAlign='justify'>
-                            First semester, I noticed I wasn't very bright with math and sort of hated problems with numbers. Instead <span style={{ color: '#1cde70' }}>I was hooked on how to make things look cool and be satisfying to use</span>games I liked. So when I understood a little about Human Computer Interaction, I decided CS wasn't for me and started looking for another way to explore my talents.
+                            First semester, I noticed I wasn&apos;t very bright with math and sort of hated problems with numbers. Instead <span style={{ color: '#1cde70' }}>I was hooked on how to make things look cool and be satisfying to use</span>games I liked. So when I understood a little about Human Computer Interaction, I decided CS wasn&apos;t for me and started looking for another way to explore my talents.
                         </Text>
                         <Text mt='1.5rem' textAlign='justify'>
                             I started my actual career making some money as a generic illustrator / graphics designer and eventually got back into college to study Design in 2014. <span style={{ color: '#1cde70' }}>There I studied User Experience, Interaction Design, Information Ergonomics...</span> Many interesting areas that had a lot more to do with me.

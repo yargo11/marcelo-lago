@@ -1,7 +1,7 @@
 import { Box, Divider, Flex, HStack, Icon, StackDivider, Text } from '@chakra-ui/react'
 import { FaRegCheckCircle, FaRegTimesCircle } from 'react-icons/fa'
 
-export default function () {
+export default function MobileVersion() {
     return (
         <Flex mx='1rem' direction='column' align='center'>
             <Text as='h4' my='1rem'>

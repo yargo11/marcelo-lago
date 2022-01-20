@@ -11,11 +11,11 @@ export default function Pricing() {
             <Text as='h1' textAlign='center' lineHeight='4rem'>Video design plans for Educational purposes</Text>
             <Box mx='1rem'>
                 <Text as='h6' my='1rem' textAlign='justify'>
-                    Hi there! I'm Mark, congratulations on your decision of launching an online course. I'm a volunteer teacher myself & believe in the power of education, too.
+                    Hi there! I&apos;m Mark, congratulations on your decision of launching an online course. I&apos;m a volunteer teacher myself & believe in the power of education, too.
                 </Text>
                 <Text as='h6' my='1rem' textAlign='justify'>
-                    After years serving dozens of clients worldwide, I've figured out the needs of most content creators.
-                    Here you'll find the five most requested configurations combined into different plans.
+                    After years serving dozens of clients worldwide, I&apos;ve figured out the needs of most content creators.
+                    Here you&apos;ll find the five most requested configurations combined into different plans.
                 </Text>
             </Box>
 
@@ -30,7 +30,7 @@ export default function Pricing() {
                 <SimpleGrid minChildWidth='300px' spacing='40px' my='2rem'>
                     <Plans
                         planTitle='SPEECH'
-                        planDescription="Cut individual mispells and speech erros, fillers like &apos;Uuhs&apos;, unintentionally repeated words and longe silences"
+                        planDescription='Cut individual mispells and speech erros, fillers like &apos;Uuhs&apos;, unintentionally repeated words and longe silences'
                     />
                     <Plans
                         planTitle='EDITING & DISTRIBUTION'

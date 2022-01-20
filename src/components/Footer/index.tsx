@@ -38,13 +38,10 @@ export default function Footer() {
                     <FormControl>
                         <FormLabel htmlFor='email' />
                         <Input id='email' type='email' placeholder='Email' required />
-                        <FormHelperText>* I'll never share your email.</FormHelperText>
+                        <FormHelperText>* I&apos;ll never share your email.</FormHelperText>
 
                         <FormLabel htmlFor='email' />
-                        <Textarea
-                            placeholder='Send me a message!'
-                        />
-
+                        <Textarea placeholder='Send me a message!' />
                         <Button type='submit' w='full' mt='1rem'>Send</Button>
                     </FormControl>
                 </Flex>
