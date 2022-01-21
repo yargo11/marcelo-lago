@@ -9,22 +9,22 @@ export const theme = extendTheme({
                 boxSizing: 'border-box'
             },
             h1: {
-                fontSize: ['4xl','5xl','6xl']
+                fontSize: ['4xl', '5xl', '6xl']
             },
             h2: {
-                fontSize: '5xl'
+                fontSize: ['3xl', '4xl', '5xl']
             },
             h3: {
-                fontSize: '4xl'
+                fontSize: ['2xl', '3xl', '4xl']
             },
             h4: {
-                fontSize: '3xl'
+                fontSize: ['xl', '2xl', '3xl']
             },
             h5: {
-                fontSize: '2xl'
+                fontSize: ['lg', 'xl', '2xl']
             },
             h6: {
-                fontSize: 'xl'
+                fontSize: ['md', 'lg', 'xl']
             },
         }
     },
@@ -33,7 +33,7 @@ export const theme = extendTheme({
             defaultProps: {
                 textAlign: 'center',
                 fontWeight: 'bold',
-                color:'pink.900'
+                color: 'pink.900'
             }
         },
         Td: {

@@ -3,21 +3,23 @@ import { AspectRatio, Avatar, Box, Button, Flex, HStack, Text } from "@chakra-ui
 export default function Home() {
   return (
     <>
-      <Flex maxW='1320px' w='100%' m='auto' wrap='wrap' my='3rem' py='3rem'>
+      <Flex maxW='1320px' w='100%' m='auto' wrap='wrap' my='3rem' py='3rem' >
         <Flex direction='column' flex='1' justifyContent='space-evenly' mx='1rem'>
           <Text as='h1' textAlign={['center', 'left']}>The Unlimited Design Solution That</Text>
           <Text as='h6' textAlign={['justify', 'left']}>Scale your business quicker and lower your expenses with a dedicated design team that supports you every step of the way.</Text>
-          <Button
-            borderRadius='32px'
-            w='160px'
-            fontWeight='bold'
-            colorScheme='pink'
-            my='1rem'
-          >
-            Call to Action
-          </Button>
+          <Flex justify={['center','left']}>
+            <Button
+              borderRadius='32px'
+              w='160px'
+              fontWeight='bold'
+              colorScheme='pink'
+              my='1rem'
+            >
+              Call to Action
+            </Button>
+          </Flex>
         </Flex>
-        <Box>
+        <Box >
           <AspectRatio width={['100vw', '600px']}>
             <iframe
               title='Arcane'

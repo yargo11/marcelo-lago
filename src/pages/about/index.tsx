@@ -8,8 +8,8 @@ export default function About() {
                     <Text as='h3' fontWeight='bold'>MARCELO LAGO</Text>
                     <Text as='h4' color='#1cde70'>eLearning Video Specialist</Text>
                 </Flex>
-                <Flex direction={['column', 'row']} maxW='980px' w='100%' m='auto' mt='2rem'>
-                    <Box maxW='576px' mx='1rem'>
+                <Flex direction={['column', 'row']} maxW='980px' w='100%' m='auto' mt='2rem' align='center'>
+                    <Box maxW='576px' mx='1rem' mb='2rem'>
                         <Text textAlign='justify'>
                             Like every kid in 1998, I loved playing video games and messing with computers, so when I grew up, I decided to study Computer Science so I could create cool games, or at least that&apos;s what I thought made sense.
                         </Text>

@@ -8,14 +8,15 @@ import {
     Textarea,
     Button,
     Link,
-    Avatar
+    Avatar,
+    Stack
 } from '@chakra-ui/react'
 import { FaInstagram, FaLinkedinIn, FaVimeoV } from 'react-icons/fa'
 
 export default function Footer() {
     return (
-        <Flex bg='gray.900' color='gray.50' py='1rem'>
-            <HStack maxW='1320px' w='100%' m='auto' justify='space-between'>
+        <Flex bg='gray.900' color='gray.50' p='1rem'>
+            <Stack maxW='1320px' w='100%' m='auto' justify='space-between' direction={['column', 'row']} align='center'>
                 <Avatar size='2xl' name='Marcelo Lago' src='/marcelo.jfif' />
                 <Box>
                     <Text as='h6' fontWeight='bold'>
@@ -42,10 +43,10 @@ export default function Footer() {
 
                         <FormLabel htmlFor='email' />
                         <Textarea placeholder='Send me a message!' />
-                        <Button type='submit' w='full' mt='1rem'>Send</Button>
+                        <Button type='submit' w='full' mt='1rem' colorScheme='teal'>Send</Button>
                     </FormControl>
                 </Flex>
-            </HStack>
+            </Stack>
         </Flex>
     )
 }

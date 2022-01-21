@@ -25,9 +25,9 @@ export default function Pricing() {
             </Box>
 
             {/* INCLUSO EM TODOS OS PLANOS */}
-            <Box mt='3rem'>
+            <Flex mt='3rem' direction='column' px='1rem'>
                 <Text as='h1' fontWeight='700' color='#3e3e3e' textAlign='center'> Every plan includes</Text>
-                <SimpleGrid minChildWidth='300px' spacing='40px' my='2rem'>
+                <SimpleGrid columns={[1,1,2,3,4]} spacing='40px' my='2rem'>
                     <Plans
                         planTitle='SPEECH'
                         planDescription='Cut individual mispells and speech erros, fillers like &apos;Uuhs&apos;, unintentionally repeated words and longe silences'
@@ -45,7 +45,7 @@ export default function Pricing() {
                         planDescription='Dispaly your logo in the corner and insert your intro into each video (Both provided by you)'
                     />
                 </SimpleGrid>
-            </Box>
+            </Flex>
 
             {/* FAQ */}
             <Box my='3rem'>
