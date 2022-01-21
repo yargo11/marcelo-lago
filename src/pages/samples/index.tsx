@@ -15,7 +15,7 @@ export default function Samples() {
                         <Spacer />
                         <Text as='h6' fontWeight='400' color='#6aa84f'>
                             <Text as='i'>
-                                "Mark delivered a spectacular video that exceeded my expectations. He was quick to respond and offered tips to enhance my video recording next time. I will be using him for all my video editing needs!                                "
+                                &quot;Mark delivered a spectacular video that exceeded my expectations. He was quick to respond and offered tips to enhance my video recording next time. I will be using him for all my video editing needs!&quot;
                             </Text>
                         </Text>
                         <Spacer />
@@ -52,7 +52,7 @@ export default function Samples() {
                         <Spacer />
                         <Text as='h6' fontWeight='400' color='#1155cc'>
                             <Text as='i'>
-                                "Great guy to work with. Communicative, extremely fast and professional approach."
+                            &quot;Great guy to work with. Communicative, extremely fast and professional approach.&quot;
                             </Text>
                         </Text>
                         <Spacer />
@@ -71,7 +71,7 @@ export default function Samples() {
                         <Spacer />
                         <Text as='h6' fontWeight='400' color='#021f3b'>
                             <Text as='i'>
-                                "Mark got a very good eye for what to do, and most importantly, what not to do, when editing. This is a very rare skill which you wont find many having mastered, definetely a hidden gem here!"
+                            &quot;Mark got a very good eye for what to do, and most importantly, what not to do, when editing. This is a very rare skill which you wont find many having mastered, definetely a hidden gem here!&quot;
                             </Text>
                         </Text>
                         <Spacer />
