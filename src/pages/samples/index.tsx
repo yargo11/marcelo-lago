@@ -6,7 +6,7 @@ export default function Samples() {
             <Text as='h1' fontWeight='bold' color='#3e3e3e' textAlign='center'>Happy clients</Text>
 
             <Box>
-                <Flex justify='space-between' bg='green.50' my='2rem' boxShadow='5px 5px 10px #6aa84f'>
+                <Flex justify='space-between' bg='green.50' my='2rem' boxShadow='5px 5px 10px #6aa84f' direction={['column',null,'row']}>
                     <VStack p='1.5rem' flex='1' align='start'>
                         <Text as='h2' fontWeight='500' color='#38761d'>
                             Basic
@@ -34,7 +34,7 @@ export default function Samples() {
                     </Box>
                 </Flex>
 
-                <Flex justify='space-between' bg='blue.50' my='2rem' boxShadow='5px 5px 10px #1155cc'>
+                <Flex justify='space-between' bg='blue.50' my='2rem' boxShadow='5px 5px 10px #1155cc'  direction={['column-reverse',null,'row']}>
                     <Box>
                         <AspectRatio width={['100vw', '400px']}>
                             <iframe
@@ -62,7 +62,7 @@ export default function Samples() {
                     </VStack>
                 </Flex>
 
-                <Flex justify='space-between' bg='gray.50' my='2rem' boxShadow='5px 5px 10px #021f3b'>
+                <Flex justify='space-between' bg='gray.50' my='2rem' boxShadow='5px 5px 10px #021f3b' direction={['column',null,'row']}>
                     <VStack p='1.5rem' flex='1' align='start'>
                         <Text as='h2' fontWeight='500' color='#000d1a' >
                             Master Class
