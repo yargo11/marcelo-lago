@@ -8,6 +8,7 @@ import {
     DrawerHeader,
     DrawerOverlay,
 } from "@chakra-ui/react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 import { FiMenu } from "react-icons/fi";
@@ -22,7 +23,7 @@ export default function MobileMenu() {
             {/* <HStack w='full' justify='space-between' px='1rem'> */}
             <Box >
                 <Link href='/'>
-                    Marcelo Lago
+                    <Image src='/LogoExport.svg' alt='Marcelo Lago' height={50} width={250} />
                 </Link>
             </Box>
             <IconButton ref={btnRef} colorScheme='teal' onClick={onOpen} icon={<FiMenu />} aria-label='Open drawer' ml='auto'>
@@ -37,7 +38,9 @@ export default function MobileMenu() {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerCloseButton />
-                    <DrawerHeader>Marcelo Lago</DrawerHeader>
+                    <DrawerHeader>
+                        <Image src='/LogoExport.svg' alt='Marcelo Lago' height={50} width={250} />
+                    </DrawerHeader>
 
                     <DrawerBody>
                         <VStack alignItems='left' fontSize='xl'>

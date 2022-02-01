@@ -2,13 +2,13 @@ import { AspectRatio, Box, Divider, Flex, Link, Spacer, Text, VStack } from '@ch
 
 export default function Samples() {
     return (
-        <Flex maxW='1320px' w='100%' m='auto' direction='column' my='3rem'>
-            <Text as='h1' fontWeight='bold' color='#3e3e3e' textAlign='center'>Happy clients</Text>
+        <Flex maxW='1320px' w='100%' m='auto' direction='column' mt='2rem'>
+            <Text as='h2' fontWeight='bold' color='#3e3e3e' textAlign='center'>Happy clients</Text>
 
             <Box>
-                <Flex justify='space-between' bg='green.50' my='2rem' boxShadow='5px 5px 10px #6aa84f' direction={['column',null,'row']}>
-                    <VStack p='1.5rem' flex='1' align='start'>
-                        <Text as='h2' fontWeight='500' color='#38761d'>
+                <Flex justify='space-between' bg='green.50' my='2rem' boxShadow='5px 5px 10px #6aa84f' direction={['column', null, 'row']}>
+                    <VStack p='1rem' flex='1' align='start'>
+                        <Text as='h3' fontWeight='500' color='#38761d'>
                             Basic
                         </Text>
                         <Divider />
@@ -23,8 +23,8 @@ export default function Samples() {
                             Cynthia Matheny, Founder <Link href='https://www.cynthiamatheny.com/'>https://www.cynthiamatheny.com/</Link>, Purchased Basic plan and customized it
                         </Text>
                     </VStack>
-                    <Box borderRadius='12px'>
-                        <AspectRatio width={['100vw', '400px']} >
+                    <Box>
+                        <AspectRatio width={['100vw', '325px']} >
                             <iframe
                                 title='Arcane'
                                 src='https://www.youtube.com/embed/QhBnZ6NPOY0'
@@ -34,9 +34,9 @@ export default function Samples() {
                     </Box>
                 </Flex>
 
-                <Flex justify='space-between' bg='blue.50' my='2rem' boxShadow='5px 5px 10px #1155cc'  direction={['column-reverse',null,'row']}>
+                <Flex justify='space-between' bg='blue.50' my='2rem' boxShadow='5px 5px 10px #1155cc' direction={['column-reverse', null, 'row']}>
                     <Box>
-                        <AspectRatio width={['100vw', '400px']}>
+                        <AspectRatio width={['100vw', '325px']} >
                             <iframe
                                 title='Arcane'
                                 src='https://www.youtube.com/embed/QhBnZ6NPOY0'
@@ -44,15 +44,15 @@ export default function Samples() {
                             />
                         </AspectRatio>
                     </Box>
-                    <VStack p='1.5rem' flex='1' align='start'>
-                        <Text as='h2' fontWeight='500' color='#1c4587'>
+                    <VStack p='1rem' flex='1' align='start'>
+                        <Text as='h3' fontWeight='500' color='#1c4587'>
                             Webinator
                         </Text>
                         <Divider />
                         <Spacer />
                         <Text as='h6' fontWeight='400' color='#1155cc'>
                             <Text as='i'>
-                            &quot;Great guy to work with. Communicative, extremely fast and professional approach.&quot;
+                                &quot;Great guy to work with. Communicative, extremely fast and professional approach.&quot;
                             </Text>
                         </Text>
                         <Spacer />
@@ -62,16 +62,16 @@ export default function Samples() {
                     </VStack>
                 </Flex>
 
-                <Flex justify='space-between' bg='gray.50' my='2rem' boxShadow='5px 5px 10px #021f3b' direction={['column',null,'row']}>
-                    <VStack p='1.5rem' flex='1' align='start'>
-                        <Text as='h2' fontWeight='500' color='#000d1a' >
+                <Flex justify='space-between' bg='gray.50' my='2rem' boxShadow='5px 5px 10px #021f3b' direction={['column', null, 'row']}>
+                    <VStack p='1rem' flex='1' align='start'>
+                        <Text as='h3' fontWeight='500' color='#000d1a' >
                             Master Class
                         </Text>
                         <Divider />
                         <Spacer />
                         <Text as='h6' fontWeight='400' color='#021f3b'>
                             <Text as='i'>
-                            &quot;Mark got a very good eye for what to do, and most importantly, what not to do, when editing. This is a very rare skill which you wont find many having mastered, definetely a hidden gem here!&quot;
+                                &quot;Mark got a very good eye for what to do, and most importantly, what not to do, when editing. This is a very rare skill which you wont find many having mastered, definetely a hidden gem here!&quot;
                             </Text>
                         </Text>
                         <Spacer />
@@ -80,7 +80,7 @@ export default function Samples() {
                         </Text>
                     </VStack>
                     <Box>
-                        <AspectRatio width={['100vw', '400px']}>
+                        <AspectRatio width={['100vw', '325px']} >
                             <iframe
                                 title='Arcane'
                                 src='https://www.youtube.com/embed/QhBnZ6NPOY0'

@@ -8,7 +8,7 @@ import PriceTable from '../../components/PriceTable'
 export default function Pricing() {
     return (
         <Flex maxW='1320px' w='100%' m='auto' direction='column'>
-            <Text as='h1' textAlign='center' lineHeight='4rem'>Video design plans for Educational purposes</Text>
+            <Text as='h1' textAlign='center' lineHeight='4rem' my='2rem'>Video design plans for Educational purposes</Text>
             <Box mx='1rem'>
                 <Text as='h6' my='1rem' textAlign='justify'>
                     Hi there! I&apos;m Mark, congratulations on your decision of launching an online course. I&apos;m a volunteer teacher myself & believe in the power of education, too.
